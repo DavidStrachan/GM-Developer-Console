@@ -1,0 +1,51 @@
+{
+  "resources": [
+    {"id":{"name":"spr_bg","path":"sprites/spr_bg/spr_bg.yy",},"order":0,},
+    {"id":{"name":"spr_bg2","path":"sprites/spr_bg2/spr_bg2.yy",},"order":1,},
+    {"id":{"name":"spr_bg3","path":"sprites/spr_bg3/spr_bg3.yy",},"order":2,},
+    {"id":{"name":"font_console","path":"fonts/font_console/font_console.yy",},"order":0,},
+    {"id":{"name":"obj_console","path":"objects/obj_console/obj_console.yy",},"order":0,},
+    {"id":{"name":"room0","path":"rooms/room0/room0.yy",},"order":0,},
+  ],
+  "Options": [
+    {"name":"iOS","path":"options/ios/options_ios.yy",},
+    {"name":"tvOS","path":"options/tvos/options_tvos.yy",},
+    {"name":"HTML5","path":"options/html5/options_html5.yy",},
+    {"name":"Linux","path":"options/linux/options_linux.yy",},
+    {"name":"Windows","path":"options/windows/options_windows.yy",},
+    {"name":"Amazon Fire","path":"options/amazonfire/options_amazonfire.yy",},
+    {"name":"macOS","path":"options/mac/options_mac.yy",},
+    {"name":"Android","path":"options/android/options_android.yy",},
+    {"name":"Main","path":"options/main/options_main.yy",},
+  ],
+  "isDnDProject": false,
+  "isEcma": false,
+  "tutorialPath": "",
+  "configs": {
+    "name": "Default",
+    "children": [],
+  },
+  "RoomOrder": [
+    {"name":"room0","path":"rooms/room0/room0.yy",},
+  ],
+  "Folders": [
+    {"folderPath":"folders/Sprites.yy","order":0,"resourceVersion":"1.0","name":"Sprites","tags":[],"resourceType":"GMFolder",},
+    {"folderPath":"folders/Fonts.yy","order":1,"resourceVersion":"1.0","name":"Fonts","tags":[],"resourceType":"GMFolder",},
+    {"folderPath":"folders/Objects.yy","order":2,"resourceVersion":"1.0","name":"Objects","tags":[],"resourceType":"GMFolder",},
+    {"folderPath":"folders/Rooms.yy","order":3,"resourceVersion":"1.0","name":"Rooms","tags":[],"resourceType":"GMFolder",},
+  ],
+  "AudioGroups": [
+    {"targets":461609314234257646,"resourceVersion":"1.0","name":"audiogroup_default","resourceType":"GMAudioGroup",},
+  ],
+  "TextureGroups": [
+    {"isScaled":true,"autocrop":true,"border":2,"mipsToGenerate":0,"targets":461609314234257646,"resourceVersion":"1.0","name":"Default","resourceType":"GMTextureGroup",},
+  ],
+  "IncludedFiles": [],
+  "MetaData": {
+    "IDEVersion": "23.1.1.169",
+  },
+  "resourceVersion": "1.3",
+  "name": "console GM2.3",
+  "tags": [],
+  "resourceType": "GMProject",
+}
