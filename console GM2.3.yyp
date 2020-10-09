@@ -25,8 +25,8 @@
     "name": "Default",
     "children": [],
   },
-  "RoomOrder": [
-    {"name":"room0","path":"rooms/room0/room0.yy",},
+  "RoomOrderNodes": [
+    {"roomId":{"name":"room0","path":"rooms/room0/room0.yy",},},
   ],
   "Folders": [
     {"folderPath":"folders/Sprites.yy","order":0,"resourceVersion":"1.0","name":"Sprites","tags":[],"resourceType":"GMFolder",},
@@ -42,9 +42,9 @@
   ],
   "IncludedFiles": [],
   "MetaData": {
-    "IDEVersion": "23.1.1.169",
+    "IDEVersion": "23.1.1.193",
   },
-  "resourceVersion": "1.3",
+  "resourceVersion": "1.4",
   "name": "console GM2.3",
   "tags": [],
   "resourceType": "GMProject",

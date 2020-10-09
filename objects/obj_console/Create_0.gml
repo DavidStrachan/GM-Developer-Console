@@ -1,16 +1,14 @@
 /*
-  ___   ___   _____ ___   ___ ___   _   _    ___   ___ _   _ ___  
- |   \ /_\ \ / / __/ __| |   \_ _| /_\ | |  / _ \ / __| | | | __| 
- | |) / _ \ V /| _|\__ \ | |) | | / _ \| |_| (_) | (_ | |_| | _|  
- |___/_/ \_\_/ |___|___/_|___/___/_/_\_\____\___/ \___|\___/|___| 
-               / __\ \ / / __|_   _| __|  \/  |                   
-               \__ \\ V /\__ \ | | | _|| |\/| |                   
-               |___/ |_| |___/ |_| |___|_|  |_|  
+  ___   ___   _____ ___   ___  _____   _____ _    ___  ___ ___ ___  
+ |   \ /_\ \ / / __/ __| |   \| __\ \ / / __| |  / _ \| _ \ __| _ \ 
+ | |) / _ \ V /| _|\__ \ | |) | _| \ V /| _|| |_| (_) |  _/ _||   / 
+ |___/_/_\_\_/ |___|___/_|___/|___| \_/ |___|____\___/|_| |___|_|_\ 
+				 / __/ _ \| \| / __|/ _ \| |  | __|                                
+				| (_| (_) | .` \__ \ (_) | |__| _|                                 
+				 \___\___/|_|\_|___/\___/|____|___|                                                     
 			   
-					    VERSION: 0.3.2
+					    VERSION: 0.3.3
 */
-
-
 
 
 
@@ -322,7 +320,7 @@ commands_focused = array_create(command_1.size,false) // does this command have 
 		var still_finding_objects = true
 		do {
 			if (script_exists(i)) {
-				second_level[command_1.script,i] = script_get_name(i)
+				second_level[command_1.script,i] = script_get_name(i+100001) // +100001 because scripts start at this number as of 2.3, I dont think I will ever find a way to get dynamic inline scripts 
 				i++
 			} else {
 				still_finding_objects = false
